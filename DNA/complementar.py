@@ -26,7 +26,7 @@ def dnaComplementar2(dna):
     return complementar[::-1]
 
 def gravaComplementar(comp,nome):
-    arquivo = open("./DNA/Compl2"+nome,"w")
+    arquivo = open("./DNA/Comple2"+nome,"w")
     arquivo.write(comp)
     arquivo.close()
 
