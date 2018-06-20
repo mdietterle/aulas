@@ -1,0 +1,21 @@
+import turtle
+
+#turtle.shape("turtle")
+t=turtle.Pen()
+
+t.color('aqua')
+t.fillcolor('red')
+t.pendown()
+t.down()
+t.begin_fill()
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.end_fill()
+print("Clique para sair")
+turtle.exitonclick()
